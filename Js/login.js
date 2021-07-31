@@ -34,7 +34,7 @@ login.addEventListener("click",(event)=>{
         console.log(num)
         if(email.value == conta_confirm.email && senha.value == conta_confirm.senha){
             alert("Entrei")
-            location.href = `./index.html`
+            location.href = `./main.html`
             break
         }else{
             if(num == comprimento_array){
