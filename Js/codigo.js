@@ -72,6 +72,6 @@ logout.addEventListener("click", ()=>{
     var temcerteza = confirm("Tem certeza que quer sair?")
     console.log(temcerteza)
     if(temcerteza===true){
-        location.href = `./login.html`
+        location.href = `./index.html`
     }
 })
