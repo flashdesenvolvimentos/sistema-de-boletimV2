@@ -1,0 +1,3 @@
+limitar o numero de notas ate 10
+funçao de limpar area, limpará a celulas
+consertar os icones
