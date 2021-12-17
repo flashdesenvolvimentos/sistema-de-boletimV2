@@ -18,11 +18,12 @@
         <input type="text" id="nome" placeholder="Nome Do Aluno" required tabindex="-2">
         <input type="number" id="nota" placeholder="Nota Do Aluno" required max="10" min="0">
         <!-- <input type="text" id="materia"placeholder="Matéria" required> -->
-        <input type="text" id="materia" required placeholder="Matéria">
-        <datalist itemid="materia">
-            <option value="Biologia"></option>
-            <option value="Artes"></option>
-            <option value="Matematica"></option>
+        <input type="text" id="materia" required placeholder="Matéria" list="materia-escolher">
+        <datalist id="materia-escolher">
+            <option value="Biologia">Biologia</option>
+            <option value="Artes">Artes</option>
+            <option value="Matematica">Matematica</option>
+            <option value="Português">Português</option>
         </datalist>
         <select name="unidade" id="unidade" form="form-criar">
             <option value="unidade1">Unidade I</option>
