@@ -52,6 +52,18 @@ enviar.addEventListener("click", (event)=>{
             break
         }
     }
+    // Criar novas materias
+    let datalist_materia = document.getElementById("materia-escolher")
+    enviar.addEventListener("click", ()=>{
+        if(materia.value in datalist_materia.children.innerHTML){
+            alert("Não precisa ser adicionado na base de dados")
+        }else{
+            datalist_materia.innerHTML = `
+            <option value="${materia}">${materia}</option>
+            `
+        }
+    })
+
     // nota.value = ""
     input[0].focus()
 
@@ -75,3 +87,5 @@ logout.addEventListener("click", ()=>{
         location.href = "./index.html"
     }
 })
+
+
