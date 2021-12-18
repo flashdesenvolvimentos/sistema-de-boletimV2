@@ -4,7 +4,7 @@ let materia = document.getElementById("materia")
 let unidade = document.getElementById("unidade")
 
 let importante = document.getElementById("importante")
-let enviar = document.getElementById("cadastrar")
+export let enviar = document.getElementById("cadastrar")
 let table = document.querySelector("tbody")
 
 let tr = document.querySelectorAll("tr")
