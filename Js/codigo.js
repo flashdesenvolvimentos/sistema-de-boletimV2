@@ -58,7 +58,7 @@ enviar.addEventListener("click", (event)=>{
     // Criar novas materias
     let datalist_materia = document.getElementById("materia-escolher")
 
-    if(materia.value in datalist_materia.children[datalist_materia.length - 1].innerHTML){
+    if(materia.value in datalist_materia.children[0].innerHTML){
         alert("Não precisa ser adicionado na base de dados")
     }else{
         datalist_materia.innerHTML = `
