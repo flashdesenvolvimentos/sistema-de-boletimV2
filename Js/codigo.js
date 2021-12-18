@@ -4,13 +4,16 @@ let materia = document.getElementById("materia")
 let unidade = document.getElementById("unidade")
 
 let importante = document.getElementById("importante")
-export let enviar = document.getElementById("cadastrar")
+let enviar = document.getElementById("cadastrar")
 let table = document.querySelector("tbody")
 
 let tr = document.querySelectorAll("tr")
 var qtdTabela = document.getElementById("qtdAluno")
 qtdTabela.innerHTML = `Atualmente Existe ${tr.length-(1)} Dados Cadastrados...`
 enviar.addEventListener("click", (event)=>{
+    //codigo principal
+
+    //Cadastro das notas
     if(importante.checked){
         table.innerHTML += `
         <tr>
